@@ -6,68 +6,9 @@
 </description>
     <link>http://huanghui8030.github.io//</link>
     <atom:link href="http://huanghui8030.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 12:02:10 +0800</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 12:02:10 +0800</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2017 12:03:26 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 12:03:26 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>liquid用法</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;简介&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt;中用到的就是&lt;code class=&quot;highlighter-rouge&quot;&gt;liquid语法&lt;/code&gt;，这里总结一下这个语法的一些用法。&lt;/p&gt;
-
-&lt;h2 id=&quot;liquid&quot;&gt;Liquid标签&lt;/h2&gt;
-&lt;p&gt;Liquid有两种标记类型：&lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; 和  &lt;code class=&quot;highlighter-rouge&quot;&gt;Tag&lt;/code&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Output标记&lt;/code&gt;，用于输出文本，格式采用 ``````&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tag标记&lt;/code&gt;，用于执行命令或者处理 格式:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;output&quot;&gt;Output&lt;/h2&gt;
-&lt;p&gt;例如
-```
-Hello 
-Hello 
-Hello tobi&lt;/p&gt;
-
-&lt;p&gt;```&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Feb 2017 16:12:19 +0800</pubDate>
-        <link>http://huanghui8030.github.io//liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</link>
-        <guid isPermaLink="true">http://huanghui8030.github.io//liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</guid>
-        
-        
-        <category>liquid</category>
-        
-      </item>
-    
-      <item>
-        <title>Headsmart如何使用</title>
-        <description>&lt;h2 id=&quot;headsmart&quot;&gt;Headsmart简介&lt;/h2&gt;
-&lt;p&gt;Headsmart是一个jQuery插件，它根据存在的标题动态应用标题层次。&lt;/p&gt;
-
-&lt;p&gt;在构建模板时，我们不能相信我们的用户，他们会选择我们喜欢的标头标签层次结构。虽然我们很乐意承担，他们会知道我们希望他们开始用&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt;，更可能他们会用一个开始&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;。这是Headsmart进来的地方。&lt;/p&gt;
-
-&lt;p&gt;Headsmart查看您提供的元素，并将标题类级别1-6分配给实际存在的标题标记。这意味着，最大头还是会看起来像你的1级标题是否是一个&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;headsmart-1&quot;&gt;Headsmart用法&lt;/h2&gt;
-&lt;p&gt;1、既然你将与类，而不是他们的实际元素造型你的头，你要使用的来样的&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;复位，以让所有的头长得一模一样。&lt;/p&gt;
-
-&lt;p&gt;2、现在你的&lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt;都是平等的，只需在包含你的内容的元素使用&lt;strong&gt;headsmart&lt;/strong&gt;。&lt;strong&gt;Headsmart&lt;/strong&gt;仅查找所提供元素的直接子元素，因此不会影响嵌套标题 &lt;code class=&quot;highlighter-rouge&quot;&gt;$(&#39;#site-content&#39;).headsmart()&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;3、风格由headsmart生成的类，请：&lt;code class=&quot;highlighter-rouge&quot;&gt; .header-level-1&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;.header-level-2&lt;/code&gt; ` .header-level-3&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;.header-level-4&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt; .header-level-5&lt;code class=&quot;highlighter-rouge&quot;&gt;  &lt;/code&gt;.header-level-6`&lt;/p&gt;
-
-&lt;p&gt;例如
-&lt;img src=&quot;/assets/img1.png&quot; alt=&quot;Headsmart用法图片&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Feb 2017 15:03:19 +0800</pubDate>
-        <link>http://huanghui8030.github.io//headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</link>
-        <guid isPermaLink="true">http://huanghui8030.github.io//headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</guid>
-        
-        
-        <category>headsmart</category>
-        
-      </item>
     
       <item>
         <title>原生js小游戏</title>
