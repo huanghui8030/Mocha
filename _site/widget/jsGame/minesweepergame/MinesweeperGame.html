@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>minesweeper</title>
+	<link rel='stylesheet' href='css/minesweeper.css' />
+	<script type='text/javascript' src='js/minesweeper.js'></script>
+</head>
+
+<body>
+	<a href='../../index.html'>返回</a></div>
+	<div class='game'>
+		<div class='set-area'>
+			<h1>扫雷小游戏</h1>
+			<fieldset class='set-area-field'>
+				<legend>设置</legend>
+				<table>
+					<tbody>
+						<tr>
+							<td>行数：</td>
+							<td><input id='rows' value='10'/></td>
+						</tr>
+						<tr>
+							<td>列数：</td>
+							<td><input id='cols' value='15'/></td>
+						</tr>
+						<tr>
+							<td>难易度：</td>
+							<td>
+								<select id='difficulty'>
+									<option value='10'>简单</option>
+									<option value='50'>中等</option>
+									<option value='100'>困难</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>计时器：</td>
+							<td><span class='timer'>00:00</span></td>
+						</tr>
+						<tr>
+							<td>剩余雷数：</td>
+							<td><span class='surplus'>10</span></td>
+						</tr>
+						<tr>
+							<td><input type='button' id='start' value='开始' /></td>
+							<td>
+								<input type='button' id='pause' value='暂停' />
+								<input type='button' id='restart' value='重新开始' />
+							</td>
+						</tr>
+						<tr>
+							<td colspan='2'><span class='prompt'>请点击开始,进入游戏！</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+		</div>
+		<div class='play-areas'>
+			<div class='areas'></div>
+		</div>
+	</div>
+</body>
+</html>

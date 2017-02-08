@@ -4,10 +4,10 @@
     <title>黄卉的博客</title>
     <description>不断尝试和学习新知识！
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 11:21:21 +0800</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 11:21:21 +0800</lastBuildDate>
+    <link>http://huanghui8030.github.io//</link>
+    <atom:link href="http://huanghui8030.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Feb 2017 12:02:10 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 12:02:10 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -33,8 +33,8 @@ Hello tobi&lt;/p&gt;
 &lt;p&gt;```&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Feb 2017 16:12:19 +0800</pubDate>
-        <link>http://yourdomain.com/liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</guid>
+        <link>http://huanghui8030.github.io//liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</link>
+        <guid isPermaLink="true">http://huanghui8030.github.io//liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</guid>
         
         
         <category>liquid</category>
@@ -61,8 +61,8 @@ Hello tobi&lt;/p&gt;
 &lt;img src=&quot;/assets/img1.png&quot; alt=&quot;Headsmart用法图片&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Feb 2017 15:03:19 +0800</pubDate>
-        <link>http://yourdomain.com/headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</guid>
+        <link>http://huanghui8030.github.io//headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</link>
+        <guid isPermaLink="true">http://huanghui8030.github.io//headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</guid>
         
         
         <category>headsmart</category>
@@ -70,40 +70,53 @@ Hello tobi&lt;/p&gt;
       </item>
     
       <item>
-        <title>欢迎使用Jekyll!</title>
-        <description>&lt;p&gt;你会发现这篇文章在你的&lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;目录中。继续编辑它并重新构建网站以查看您的更改。可以重建站点在许多不同的方式，但最常见的方法是运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;，这将启动一个Web服务器和当一个文件被更新自动再生网站。&lt;/p&gt;
+        <title>原生js小游戏</title>
+        <description>&lt;p&gt;这是2013年写的，原生js小游戏。一直未修复，可能还要一些内容需要完善&lt;/p&gt;
 
-&lt;p&gt;要添加新帖子，只需在添加文件_posts遵循公约目录&lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt;，包括必要的前事。看看这篇文章的来源，得到它的工作原理。&lt;/p&gt;
-
-&lt;p&gt;Jekyll还为代码片段提供了强大的支持：&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;参考文档：&lt;/p&gt;
+&lt;h2 id=&quot;section&quot;&gt;小游戏&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/widget、jsGame/minesweepergame/MinesweeperGame.html&quot;&gt;扫雷&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/widget、jsGame/snakegame/JSSnakeGame.html&quot;&gt;贪吃蛇&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
-        <pubDate>Tue, 07 Feb 2017 15:01:19 +0800</pubDate>
-        <link>http://yourdomain.com/jekyll/2017/02/07/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/2017/02/07/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8jekyll.html</guid>
+        <pubDate>Thu, 07 Feb 2013 16:12:19 +0800</pubDate>
+        <link>http://huanghui8030.github.io//javascript/2013/02/07/%E5%9F%BA%E4%BA%8E%E5%8E%9F%E7%94%9Fjs%E7%9A%84%E5%B0%8F%E6%B8%B8%E6%88%8F.html</link>
+        <guid isPermaLink="true">http://huanghui8030.github.io//javascript/2013/02/07/%E5%9F%BA%E4%BA%8E%E5%8E%9F%E7%94%9Fjs%E7%9A%84%E5%B0%8F%E6%B8%B8%E6%88%8F.html</guid>
         
         
-        <category>jekyll</category>
+        <category>Javascript</category>
+        
+      </item>
+    
+      <item>
+        <title>基于jquery的插件</title>
+        <description>&lt;p&gt;这是2013年写的，基于jquery的插件。一直未修复，可能还要一些内容需要完善&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;小游戏&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/widget/minScrollbar/demo.html&quot;&gt;自定义滚动条minScroll&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/widget/fomatImage/demo.html&quot;&gt;图片大小自定义插件formatImage&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;/widget/readModel/demo.html&quot;&gt;阅读模式readModel&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Feb 2013 15:12:19 +0800</pubDate>
+        <link>http://huanghui8030.github.io//javascript/2013/02/07/%E5%9F%BA%E4%BA%8Ejquery%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6.html</link>
+        <guid isPermaLink="true">http://huanghui8030.github.io//javascript/2013/02/07/%E5%9F%BA%E4%BA%8Ejquery%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6.html</guid>
+        
+        
+        <category>Javascript</category>
         
       </item>
     
