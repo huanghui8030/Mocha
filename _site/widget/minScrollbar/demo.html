@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
+	<title>demo-minScrollbar</title>
+	<!--<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>-->
+	<link rel="stylesheet"  type="text/css" href="minScrollbar.css"/>
+	<script src="../jquery-ui/js/jquery-1.5.2.min.js"></script>
+	<script src="../jquery-ui/js/jquery-ui-1.8.11.custom.min.js"></script>
+	<script type='text/javascript' src='minScrollbar.js'></script>
+	<style type="text/css">
+	div.ui-common-form-biserial {  
+		height: 200px;
+		border:1px solid red;
+	}
+	table.webfx-columnlist-body {
+		width: 100%;
+		height:100%;
+	}
+	table.webfx-columnlist-body tr td {
+		text-align: left;
+		text-indent: 6px;
+		border-bottom: 1px solid #ddd;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-family: Tahoma, '宋体' Geneva, sans-serif;
+		font-size: 12px;
+		color: #333333;
+		padding-left: 6px;
+		height: 27px;
+	}
+	#testClear{
+		list-style:none;padding:0;margin:0
+	}
+	#testClear li{
+		display:block;
+	}
+	</style>
+	<script type='text/javascript'>
+	$(function(){
+		$('#btn1').click(function(){
+			var $t = $('#divID').parent('.ui-minScrollbar-viewable');
+			var h = parseFloat($t.height())+20;
+			$t.height(h);	
+			$('#divID').append('<div>123</div>');			
+		});
+		$('#btn2').click(function(){
+			var $t = $('#divID').parent('.ui-minScrollbar-viewable');
+			var h = parseFloat($t.height())-20;
+			$t.height(h);				
+		});
+		$('#btn3').click(function(){
+			var $t = $('#divID').parent('.ui-minScrollbar-viewable');
+			var h = parseFloat($t.width())+20;
+			$t.width(h);	
+			$('#divID').append('<div>123</div>');			
+		});
+		$('#btn4').click(function(){
+			alert(11);
+			var $t = $('#divID').parent('.ui-minScrollbar-viewable');
+			var h = parseFloat($t.width())-20;
+			$t.width(h);				
+		});
+		
+
+	});
+	
+	$(function(){
+		$("#divID").minScrollbar({
+			hScroll:true,
+			vScroll:true,
+			width:'20px',
+			height:'20px',
+			viewWidth:'200px',
+			viewHeight:'200px',
+			bgColor:'red'			
+		});
+	  //$(".ui-minScrollbar").minScrollbar('destroy');	
+	});
+
+	</script>
+</head>
+
+<body style="margin:0 100px;" id='bodyId'>
+<a href='../../index.html'>返回</a></div>
+<input type='button' value='height加20px' id='btn1'/>
+<input type='button' value='height减20px' id='btn2'/>
+<input type='button' value='width加20px' id='btn3'/>
+<input type='button' value='width减20px' id='btn4'/>
+<table  class="webfx-columnlist-body ui-minScrollbar " id="tableId">
+	<tbody>
+		<tr id='aa'><td width="100px">1</td><td width="200px">2</td></tr>
+		<tr><td>2</td><td>2</td></tr>
+		<tr><td>3</td><td>2</td></tr>
+		<tr><td>4</td><td>2</td></tr>
+		<tr><td>5</td><td>2</td></tr>
+		<tr><td>6</td><td>2</td></tr>
+		<tr><td>7</td><td>2</td></tr>
+		<tr><td>8</td><td>2</td></tr>
+		<tr><td>9</td><td>2</td></tr>
+		<tr><td>10</td><td>2</td></tr>
+	</tbody>	
+</table>
+<div  id='divID' class='ui-minScrollbar'>
+		123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345123456678990erxcvzxcvfdgdfshg豆腐干豆腐干风格豆腐干风格而提高儿童而她35345dsfa23432432东风公司打工地方vbcvbv
+</div>
+</body>
+</html>

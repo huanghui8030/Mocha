@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>黄卉的博客</title>
+    <description>不断尝试和学习新知识！
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Feb 2017 11:21:21 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 11:21:21 +0800</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>liquid用法</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt;中用到的就是&lt;code class=&quot;highlighter-rouge&quot;&gt;liquid语法&lt;/code&gt;，这里总结一下这个语法的一些用法。&lt;/p&gt;
+
+&lt;h2 id=&quot;liquid&quot;&gt;Liquid标签&lt;/h2&gt;
+&lt;p&gt;Liquid有两种标记类型：&lt;code class=&quot;highlighter-rouge&quot;&gt;Output&lt;/code&gt; 和  &lt;code class=&quot;highlighter-rouge&quot;&gt;Tag&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Output标记&lt;/code&gt;，用于输出文本，格式采用 ``````&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tag标记&lt;/code&gt;，用于执行命令或者处理 格式:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;output&quot;&gt;Output&lt;/h2&gt;
+&lt;p&gt;例如
+```
+Hello 
+Hello 
+Hello tobi&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Feb 2017 16:12:19 +0800</pubDate>
+        <link>http://yourdomain.com/liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/liquid/2017/02/07/liquid%E7%94%A8%E6%B3%95%E7%AC%94%E8%AE%B0.html</guid>
+        
+        
+        <category>liquid</category>
+        
+      </item>
+    
+      <item>
+        <title>Headsmart如何使用</title>
+        <description>&lt;h2 id=&quot;headsmart&quot;&gt;Headsmart简介&lt;/h2&gt;
+&lt;p&gt;Headsmart是一个jQuery插件，它根据存在的标题动态应用标题层次。&lt;/p&gt;
+
+&lt;p&gt;在构建模板时，我们不能相信我们的用户，他们会选择我们喜欢的标头标签层次结构。虽然我们很乐意承担，他们会知道我们希望他们开始用&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt;，更可能他们会用一个开始&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;。这是Headsmart进来的地方。&lt;/p&gt;
+
+&lt;p&gt;Headsmart查看您提供的元素，并将标题类级别1-6分配给实际存在的标题标记。这意味着，最大头还是会看起来像你的1级标题是否是一个&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h3&amp;gt;&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;headsmart-1&quot;&gt;Headsmart用法&lt;/h2&gt;
+&lt;p&gt;1、既然你将与类，而不是他们的实际元素造型你的头，你要使用的来样的&lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;复位，以让所有的头长得一模一样。&lt;/p&gt;
+
+&lt;p&gt;2、现在你的&lt;code class=&quot;highlighter-rouge&quot;&gt;css&lt;/code&gt;都是平等的，只需在包含你的内容的元素使用&lt;strong&gt;headsmart&lt;/strong&gt;。&lt;strong&gt;Headsmart&lt;/strong&gt;仅查找所提供元素的直接子元素，因此不会影响嵌套标题 &lt;code class=&quot;highlighter-rouge&quot;&gt;$(&#39;#site-content&#39;).headsmart()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;3、风格由headsmart生成的类，请：&lt;code class=&quot;highlighter-rouge&quot;&gt; .header-level-1&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;.header-level-2&lt;/code&gt; ` .header-level-3&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;.header-level-4&lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt; .header-level-5&lt;code class=&quot;highlighter-rouge&quot;&gt;  &lt;/code&gt;.header-level-6`&lt;/p&gt;
+
+&lt;p&gt;例如
+&lt;img src=&quot;/assets/img1.png&quot; alt=&quot;Headsmart用法图片&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Feb 2017 15:03:19 +0800</pubDate>
+        <link>http://yourdomain.com/headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/headsmart/2017/02/07/headsmart%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8.html</guid>
+        
+        
+        <category>headsmart</category>
+        
+      </item>
+    
+      <item>
+        <title>欢迎使用Jekyll!</title>
+        <description>&lt;p&gt;你会发现这篇文章在你的&lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt;目录中。继续编辑它并重新构建网站以查看您的更改。可以重建站点在许多不同的方式，但最常见的方法是运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;，这将启动一个Web服务器和当一个文件被更新自动再生网站。&lt;/p&gt;
+
+&lt;p&gt;要添加新帖子，只需在添加文件_posts遵循公约目录&lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt;，包括必要的前事。看看这篇文章的来源，得到它的工作原理。&lt;/p&gt;
+
+&lt;p&gt;Jekyll还为代码片段提供了强大的支持：&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;参考文档：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 07 Feb 2017 15:01:19 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/2017/02/07/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/2017/02/07/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
