@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "mochawesome": "^2.3.0"
+  }
+}

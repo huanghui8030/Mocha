@@ -1,0 +1,3 @@
+--watch
+--recursive
+--reporter mochawesome
