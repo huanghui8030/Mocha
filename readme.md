@@ -89,7 +89,7 @@ options包括下面这些：
      -R, --reporter <name>                   specify the reporter to use    
      -S, --sort                              排序测试文件    
      -b, --bail                              bail after first test failure    
-     -d, --debug                             enable node's debugger, synonym for node --debug
+     -d, --debug                             enable node s debugger, synonym for node --debug
      -g, --grep <pattern>                    只执行满足 <pattern>格式的用例    
      -f, --fgrep <string>                    只执行含有 <string> 的用例    
      -gc, --expose-gc                        展示gc回收的log    
